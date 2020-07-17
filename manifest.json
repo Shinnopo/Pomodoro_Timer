@@ -1,0 +1,15 @@
+{
+
+    "manifest_version" : 2,
+    "name" : "Pomodoro Timer",
+    "version" : "1.0",
+
+    "description" : "This is a firefox plugin for a pomodoro timer based on the Pomodoro technique.",
+
+    "content_scripts" : [
+        {
+            "js" : ["pomodoro.js"]
+        }
+    ]
+    
+}
