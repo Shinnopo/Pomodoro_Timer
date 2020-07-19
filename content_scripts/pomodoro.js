@@ -17,3 +17,8 @@ function screenLock() {
         element.remove()
     }, 3000);
 }
+
+function screenUnLock(id_name) {
+    const screenLock = document.getElementById(id_name);
+    screenLock.parentNode.removeChild(screenLock);
+}
